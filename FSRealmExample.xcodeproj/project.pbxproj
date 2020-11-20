@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199279D6CC4AB05D1984E5AB /* Pods_FSRealmExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E100F23CF35971CA9C87AE89 /* Pods_FSRealmExample.framework */; };
+		94DC1F7224E7D6EC00612306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1F7124E7D6EC00612306 /* AppDelegate.swift */; };
+		94DC1F7424E7D6EC00612306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1F7324E7D6EC00612306 /* SceneDelegate.swift */; };
+		94DC1F7624E7D6EC00612306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1F7524E7D6EC00612306 /* ViewController.swift */; };
+		94DC1F7924E7D6EC00612306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DC1F7724E7D6EC00612306 /* Main.storyboard */; };
+		94DC1F7B24E7D6EF00612306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DC1F7A24E7D6EF00612306 /* Assets.xcassets */; };
+		94DC1F7E24E7D6EF00612306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DC1F7C24E7D6EF00612306 /* LaunchScreen.storyboard */; };
+		94DC1FA824E8E03400612306 /* FSRealmEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1FA624E8E03400612306 /* FSRealmEngine.swift */; };
+		94DC1FA924E8E03400612306 /* FSRealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1FA724E8E03400612306 /* FSRealmManager.swift */; };
+		94DC1FAC24E8E09E00612306 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC1FAB24E8E09E00612306 /* student.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068ECCAC65AF4A68F3EA7D0B /* Pods-FSRealmExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSRealmExample.release.xcconfig"; path = "Target Support Files/Pods-FSRealmExample/Pods-FSRealmExample.release.xcconfig"; sourceTree = "<group>"; };
+		3767BB336183BE335EB1ACD9 /* Pods-FSRealmExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSRealmExample.debug.xcconfig"; path = "Target Support Files/Pods-FSRealmExample/Pods-FSRealmExample.debug.xcconfig"; sourceTree = "<group>"; };
+		94DC1F6E24E7D6EC00612306 /* FSRealmExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSRealmExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DC1F7124E7D6EC00612306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94DC1F7324E7D6EC00612306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94DC1F7524E7D6EC00612306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94DC1F7824E7D6EC00612306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94DC1F7A24E7D6EF00612306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94DC1F7D24E7D6EF00612306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94DC1F7F24E7D6EF00612306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DC1FA624E8E03400612306 /* FSRealmEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSRealmEngine.swift; sourceTree = "<group>"; };
+		94DC1FA724E8E03400612306 /* FSRealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSRealmManager.swift; sourceTree = "<group>"; };
+		94DC1FAB24E8E09E00612306 /* student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		E100F23CF35971CA9C87AE89 /* Pods_FSRealmExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSRealmExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DC1F6B24E7D6EC00612306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199279D6CC4AB05D1984E5AB /* Pods_FSRealmExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB0A912BD91F54E5E8711AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3767BB336183BE335EB1ACD9 /* Pods-FSRealmExample.debug.xcconfig */,
+				068ECCAC65AF4A68F3EA7D0B /* Pods-FSRealmExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94DC1F6524E7D6EC00612306 = {
+			isa = PBXGroup;
+			children = (
+				94DC1F7024E7D6EC00612306 /* FSRealmExample */,
+				94DC1F6F24E7D6EC00612306 /* Products */,
+				6CB0A912BD91F54E5E8711AF /* Pods */,
+				DD037AD8E0741C0B974CF416 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94DC1F6F24E7D6EC00612306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DC1F6E24E7D6EC00612306 /* FSRealmExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DC1F7024E7D6EC00612306 /* FSRealmExample */ = {
+			isa = PBXGroup;
+			children = (
+				94DC1FAA24E8E06E00612306 /* model */,
+				94DC1FA524E8E03400612306 /* Core */,
+				94DC1F7124E7D6EC00612306 /* AppDelegate.swift */,
+				94DC1F7324E7D6EC00612306 /* SceneDelegate.swift */,
+				94DC1F7524E7D6EC00612306 /* ViewController.swift */,
+				94DC1F7724E7D6EC00612306 /* Main.storyboard */,
+				94DC1F7A24E7D6EF00612306 /* Assets.xcassets */,
+				94DC1F7C24E7D6EF00612306 /* LaunchScreen.storyboard */,
+				94DC1F7F24E7D6EF00612306 /* Info.plist */,
+			);
+			path = FSRealmExample;
+			sourceTree = "<group>";
+		};
+		94DC1FA524E8E03400612306 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94DC1FA624E8E03400612306 /* FSRealmEngine.swift */,
+				94DC1FA724E8E03400612306 /* FSRealmManager.swift */,
+			);
+			path = Core;
+			sourceTree = SOURCE_ROOT;
+		};
+		94DC1FAA24E8E06E00612306 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				94DC1FAB24E8E09E00612306 /* student.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DD037AD8E0741C0B974CF416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E100F23CF35971CA9C87AE89 /* Pods_FSRealmExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DC1F6D24E7D6EC00612306 /* FSRealmExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DC1F8224E7D6EF00612306 /* Build configuration list for PBXNativeTarget "FSRealmExample" */;
+			buildPhases = (
+				D2FB1704C284A3D933F9798B /* [CP] Check Pods Manifest.lock */,
+				94DC1F6A24E7D6EC00612306 /* Sources */,
+				94DC1F6B24E7D6EC00612306 /* Frameworks */,
+				94DC1F6C24E7D6EC00612306 /* Resources */,
+				025AC1DDEF34CCE020E940E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSRealmExample;
+			productName = FSRealmExample;
+			productReference = 94DC1F6E24E7D6EC00612306 /* FSRealmExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DC1F6624E7D6EC00612306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = beantechs;
+				TargetAttributes = {
+					94DC1F6D24E7D6EC00612306 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 94DC1F6924E7D6EC00612306 /* Build configuration list for PBXProject "FSRealmExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94DC1F6524E7D6EC00612306;
+			productRefGroup = 94DC1F6F24E7D6EC00612306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DC1F6D24E7D6EC00612306 /* FSRealmExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DC1F6C24E7D6EC00612306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DC1F7E24E7D6EF00612306 /* LaunchScreen.storyboard in Resources */,
+				94DC1F7B24E7D6EF00612306 /* Assets.xcassets in Resources */,
+				94DC1F7924E7D6EC00612306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025AC1DDEF34CCE020E940E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSRealmExample/Pods-FSRealmExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSRealmExample/Pods-FSRealmExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSRealmExample/Pods-FSRealmExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FB1704C284A3D933F9798B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSRealmExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DC1F6A24E7D6EC00612306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DC1F7624E7D6EC00612306 /* ViewController.swift in Sources */,
+				94DC1F7224E7D6EC00612306 /* AppDelegate.swift in Sources */,
+				94DC1FA924E8E03400612306 /* FSRealmManager.swift in Sources */,
+				94DC1FA824E8E03400612306 /* FSRealmEngine.swift in Sources */,
+				94DC1F7424E7D6EC00612306 /* SceneDelegate.swift in Sources */,
+				94DC1FAC24E8E09E00612306 /* student.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94DC1F7724E7D6EC00612306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DC1F7824E7D6EC00612306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94DC1F7C24E7D6EF00612306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DC1F7D24E7D6EF00612306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94DC1F8024E7D6EF00612306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94DC1F8124E7D6EF00612306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DC1F8324E7D6EF00612306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3767BB336183BE335EB1ACD9 /* Pods-FSRealmExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSRealmExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsh.rm.FSRealmExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94DC1F8424E7D6EF00612306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068ECCAC65AF4A68F3EA7D0B /* Pods-FSRealmExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FSRealmExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsh.rm.FSRealmExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DC1F6924E7D6EC00612306 /* Build configuration list for PBXProject "FSRealmExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DC1F8024E7D6EF00612306 /* Debug */,
+				94DC1F8124E7D6EF00612306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DC1F8224E7D6EF00612306 /* Build configuration list for PBXNativeTarget "FSRealmExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DC1F8324E7D6EF00612306 /* Debug */,
+				94DC1F8424E7D6EF00612306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94DC1F6624E7D6EC00612306 /* Project object */;
+}
